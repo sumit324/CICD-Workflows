@@ -1,0 +1,11 @@
+name: practice
+
+on:
+    workflow_dispatch:
+
+jobs:
+    greet:
+      runs-on: ubuntu-latest
+      steps:
+          - name : enter the user name
+            run: echo"enter the username $USER";
