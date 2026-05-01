@@ -8,4 +8,4 @@ jobs:
       runs-on: ubuntu-latest
       steps:
           - name : enter the user name
-            run: echo"enter the username $USER";
+            run: echo"enter the username $USER"
