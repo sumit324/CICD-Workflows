@@ -16,5 +16,5 @@ jobs:
    needs: [build]
    steps:
      - name: check status
-       run: sudo service status nginx
+       run: sudo service nginx status
  
